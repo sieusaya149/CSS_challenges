@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.header  div {
+    align-self: center
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.listpost-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.categrory {
+    display: flex;
+    /* background-color: brown; */
+    height: 40px;
+    justify-content: space-between;
+}
+
+.categrory a {
+    display: block;
+    align-self: center;
+}
+
+
+.blog-container{
+    display: flex;
+    /* background-color: yellow; */
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+/* Author */
+
+.blog-author-container{
+    display: flex;
+    /* background-color: rgb(96, 96, 57); */
+}
+.blog-author-container img{
+    cursor: pointer;
+    height: 24px;
+    aspect-ratio: auto 24 / 24;
+    vertical-align: middle;
+    margin: 2px;
+    border-radius: 50%;
+}
+.blog-author-container *{
+    align-self: center;
+}
+
+.blog-author-container a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Blog Information */
+.blog-infor-container
+{
+    display: flex;
+    flex-direction: row;
+    /* background-color: greenyellow; */
+    justify-content: space-between;
+}
+
+.blog-information {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+}
+
+/* Thumnail */
+.blog-thumnail{
+    position: relative;
+    flex: 1;   
+}
+
+.blog-thumnail img{
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.blog-footer-container{
+    /* background-color: aqua; */
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .blog-footer-container * {
+    margin-right: 10px;
+} */
+.footer-left {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-left button{
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 100px;
+    background-color: #F2F2F2;
+}
+
+.footer-left * {
+    margin-right: 20px;
+}
+
+.blog-end {
+    height: 0px;
+}
+
+/* recommend layout */
+.recommend-container{
+    width: 25%;
+    margin-left: 10px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* recommend author */
+.recommend-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend-author-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend-author-infor{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.recommend-author-infor img {
+    cursor: pointer;
+    height: 24px;
+    aspect-ratio: auto 24 / 24;
+    vertical-align: middle;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.recommend-author-infor *{
+    align-self: center;
+}
+
+.recommend-author-container > p{
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+/* recommend topic */
+.recommend-topics {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend-topics-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recommend-topics-container button {
+    border: 1px solid rgb(242,242,242);
+    padding: 8px 16px;
+    border-radius: 100px;
+    background-color: #F2F2F2;
+    cursor: pointer;
+    margin: 2px 2px;
+}
+/* Recommend follow */
+
+.recommend-follow-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.recommend-follow-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recommend-follow-user img{
+    align-self: center;
+    cursor: pointer;
+    height: 30px;
+    aspect-ratio: auto 30 / 30;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.recommend-follow-info{
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend-follow-container button{
+    background: 0px center;
+    fill: rgb(36, 36, 36);
+    fill: rgb(36, 36, 36);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 99em;
+    padding: 1px 20px;
+    font-weight: 400;
+    line-height: 20px;
+    height: 40px;
+    align-self: center;
+}
+
+
